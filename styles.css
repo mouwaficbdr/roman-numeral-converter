@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1B1B32;
+  color: white;
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form, #output{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  width: 500px;
+  padding: 10px;
+}
+
+label{
+  font-size: 22px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#number{
+  width: 400px;
+  height: 50px;
+  background-color: rgb(10, 10, 35);
+  border: 1px solid white;
+  margin-top: 20px;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+
+button[type="submit"]{
+  width: 400px;
+  margin-top: 20px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover{
+  background-color: #FEC042;
+  color: white;
+  border: 3px solid #FEC042;
+}
+
+#output{
+  font-weight: bold;
+  display: none;
+  text-align: center;
+}
+
+.error{
+  color: red;
+  border: 2px solid #850000;
+  background-color: #FFADAD;
+}
