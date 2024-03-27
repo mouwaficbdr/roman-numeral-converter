@@ -54,6 +54,10 @@ label{
   padding: 10px;
 }
 
+#form, #output{
+  background-color: gray;
+}
+
 button[type="submit"]{
   width: 400px;
   margin-top: 20px;
@@ -71,12 +75,14 @@ button[type="submit"]:hover{
 
 #output{
   font-weight: bold;
+  font-size: 30px;
   display: none;
   text-align: center;
 }
 
 .error{
-  color: red;
-  border: 2px solid #850000;
-  background-color: #FFADAD;
+  font-size: 20px !important; 
+  color: red !important;
+  border: 3px solid #850000 !important;
+  background-color: #FFADAD !important;
 }
